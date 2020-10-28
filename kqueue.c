@@ -29,7 +29,7 @@
 #include "event2/event-config.h"
 #include "evconfig-private.h"
 
-#ifdef EVENT__HAVE_KQUEUE 
+#ifdef EVENT__HAVE_KQUEUE
 
 #include <sys/types.h>
 #ifdef EVENT__HAVE_SYS_TIME_H
